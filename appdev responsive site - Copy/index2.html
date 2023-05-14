@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" >
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+
+</head>
+<body>
+    <section class="">
+        <nav>
+            <h1>AUTO <span class="RX"> RX </span> </h1>
+            <div class="nav" id="navlinks">
+                <i class="fa-solid fa-square-xmark" id="x_button"  onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="index.html">HOME</a> </li>
+                    <li> <a href="index.html#services">SERVICES</a> </li>
+                    <li> <a href="index2.html">REVIEWS</a> </li>                    
+                    <li> <a href="abouts.html">ABOUTS</a> </li>                    
+                    <li> <a href="">CONTACT US</a> </li>                  
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" id="menu" onclick="showMenu()"></i>
+        </nav>
+    </section>
+
+    <div id="reviews">
+        <div class="review-header">
+            <h1 class="review-header">Services Reviews</h1>
+            <p>Our satisfied customers have shared their experiences with our car services. From routine maintenance to major repairs, we pride ourselves on providing top-notch service and expertise to keep your vehicle running at its best. Read on to see what our customers have to say about their experiences with us.</p>
+        </div>
+        <div class="service-review">
+
+            <a href="">
+            <div class="review">
+                <img src="Golden-5-Star-Rating-PNG.png" alt="" class="star">
+                <img src="user2.jpg" alt="" class="review-profile">
+                <p>Great experience at this car service! The staff was friendly and knowledgeable, and they completed the maintenance on my car in a timely manner. Will definitely be coming back</p>
+                <button class="viwe-review"> View Review</button>
+            </div>
+            </a>
+
+            <a href="">
+            <div class="review">
+                <img src="Golden-5-Star-Rating-PNG.png" alt="" class="star">
+                <img src="images.jfif" alt="" class="review-profile">
+                <p>Great experience at this car service! The staff was friendly and knowledgeable, and they completed the maintenance on my car in a timely manner. Will definitely be coming back.."</p>
+                <button class="viwe-review"> View Review</button>
+            </div>
+            </a>
+
+            <a href="">
+            <div class="review">
+                <img src="Golden-5-Star-Rating-PNG.png" alt="" class="star">
+                <img src="360_F_299042079_vGBD7wIlSeNl7vOevWHiL93G4koMM967.jpg" alt="" class="review-profile">
+                <p>Quick and easy oil change at this car service! They had me in and out in no time, and even performed a quick inspection to make sure everything else looked good. Will be back for future services.</p>
+                <button class="viwe-review"> View Review</button>
+            </div>
+            </a>
+
+            <a href="">
+            <div class="review">
+                <img src="Golden-5-Star-Rating-PNG.png" alt="" class="star">
+                <img src="Personnel image 4483.jpg" alt="" class="review-profile">
+                <p>Top-notch brake service at this car service! They were able to identify and fix the issue with my brakes, and even gave me some tips for keeping them in good condition. Very impressed with their expertise.</p>
+                <button class="viwe-review"> View Review</button>
+            </div>
+            </a>            
+        </div>
+
+
+        <button class="view-more-review">View More Review</button>
+
+    </div>
+
+
+
+
+
+
+    <!--script to hide side bar navigation-->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showMenu() {
+            navlinks.style.right = "0"
+        }
+
+        function hideMenu() {
+            navlinks.style.right = "-200px"
+        }
+    </script>
+
+</body>
+</html>

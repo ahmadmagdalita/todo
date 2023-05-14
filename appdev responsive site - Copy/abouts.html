@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" >
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+    <style>
+        .history{
+            width: 500px;
+        }
+
+        .mission{
+            width: 500px;
+        }
+        .vision{
+            width: 500px;            
+        }
+
+        
+    </style>
+
+</head>
+<body>
+    <section class="abouts">
+        <nav>
+            <h1>AUTO <span class="RX"> RX </span> </h1>
+            <div class="nav" id="navlinks">
+                <i class="fa-solid fa-square-xmark" id="x_button"  onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="index.html">HOME</a> </li>
+                    <li> <a href="#">SERVICES</a> </li>
+                    <li> <a href="index2.html">REVIEWS</a> </li>
+                    <li> <a href="abouts.html">ACCESORIES</a> </li>
+                    <li> <a href="">ABOUTS</a> </li>                    
+                    <li> <a href="">CONTACT US</a> </li>                    
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" id="menu" onclick="showMenu()"></i>
+        </nav>
+            <div id="about">
+                <h1>About Us</h1>
+            </div>
+
+            <div class="all-abouts">
+                <div class="history">
+                    <h1>Our History</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit id voluptas autem quis repudiandae rem nisi repellendus obcaecati esse quibusdam, mollitia, inventore non consequuntur! Rerum aspernatur aliquam quibusdam magnam. Iusto veritatis adipisci nesciunt at. Suscipit perferendis nemo, perspiciatis amet nulla eligendi accusantium quaerat a, illum et corporis obcaecati vel nesciunt incidunt quae odio harum eaque ipsum ratione? Blanditiis possimus cumque doloremque, enim similique, exercitationem in, asperiores voluptates non tempore itaque! Sint ducimus perferendis id accusamus neque! Eos at quaerat ex provident, quos porro. Eos officia in saepe aspernatur, exercitationem expedita quibusdam sit atque maxime quod? Illo sapiente vitae aliquid sint?</p>
+                </div>   
+                <div  class="mission">
+                    <h1>Mission</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto in sequi amet ipsa quia odio. Possimus impedit soluta cupiditate iure quaerat quisquam earum distinctio hic, deserunt dignissimos quae nisi, natus labore? Voluptates eaque similique quam voluptatem reprehenderit architecto corporis, ea aperiam ipsa dolor magni sequi mollitia, inventore nisi libero, cumque eveniet quae optio? Dolor magni, iure voluptas tempora cum consectetur, inventore quis optio perferendis dignissimos perspiciatis dolorum porro facilis maxime ipsum, nemo voluptatum qui voluptates? Error, animi quas. Quasi, eius! Iusto voluptatem impedit dolore! Illum quae accusamus odio asperiores quas exercitationem repellat sint, quisquam distinctio facilis eum animi labore consequatur?</p>
+                </div>
+                <div class="vision">
+                    <h1>Vision</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto in sequi amet ipsa quia odio. Possimus impedit soluta cupiditate iure quaerat quisquam earum distinctio hic, deserunt dignissimos quae nisi, natus labore? Voluptates eaque similique quam voluptatem reprehenderit architecto corporis, ea aperiam ipsa dolor magni sequi mollitia, inventore nisi libero, cumque eveniet quae optio? Dolor magni, iure voluptas tempora cum consectetur, inventore quis optio perferendis dignissimos perspiciatis dolorum porro facilis maxime ipsum, nemo voluptatum qui voluptates? Error, animi quas. Quasi, eius! Iusto voluptatem impedit dolore! Illum quae accusamus odio asperiores quas exercitationem repellat sint, quisquam distinctio facilis eum animi labore consequatur?</p>
+                </div>
+            </div>
+
+    </section>
+
+    
+        
+
+            
+
+
+
+
+
+
+
+
+    <!--script to hide side bar navigation-->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showMenu() {
+            navlinks.style.right = "0"
+        }
+
+        function hideMenu() {
+            navlinks.style.right = "-200px"
+        }
+    </script>
+
+</body>
+</html>
